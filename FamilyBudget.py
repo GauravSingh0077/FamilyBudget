@@ -1,4 +1,4 @@
-n=int(input("Select 1 for Creating User, 2 for Selecting User, 3 for exiting program"))
+n=int(input("Select 1 for Creating User, 2 for Selecting User, 3 for exiting program:"))
 usercount=4
 budgetcount=5
 budgettobeshared=[]
@@ -6,7 +6,7 @@ c=0
 listofuser=[[1,"Karan",[[1,4000,2300]],[]],[2,"Kiran",[[2,4800,2500]],[]],[3,"Ajay",[[3,4000,2300],[4,1000,200]],[]],[4,"Arjun",[[5,4000,2300]],[]]]
 while(n!=3):
 	if c==1:
-		n=int(input("Select 1 for Creating User, 2 for Selecting User, 3 for exiting program"))
+		n=int(input("Select 1 for Creating User, 2 for Selecting User, 3 for exiting program:"))
 		if n==1:
 			n1=int(input("Number of Users to be created:"))
 			while n1>0:	
